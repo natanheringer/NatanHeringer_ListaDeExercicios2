@@ -14,6 +14,7 @@ int main (){
     printf("digite um numero de tres digitos: ");
     scanf("%d", &numero);
 
+    
     int unidade = numero % 10; // ultimo digito 
     int dezena = (numero / 10) % 10; // penultimo digito
     int centena = numero / 100; //antepenultimoo digito
